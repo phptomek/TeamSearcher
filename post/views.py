@@ -5,7 +5,7 @@ posts = [
     {
         'author': 'Player4',
         'game': 'Dota 2',
-        'content': 'Im looking for team - 2 people',
+        'content': 'Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum ',
         'link': 'steamcommunity.com/user=Player4',
         'date_posted': 'August 14, 2019'
     },
