@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing: border-box;
+        }
+        .single-post{
+            border: 2px solid black;
+            margin: 8px 0 8px 0;
+        }
+    </style>
+</head>
+    {% for post in posts %}
+        <div class="single-post">
+            <h2>{{ post.author }}</h2>
+            <p>{{ post.date_posted }}</p>
+            <p>{{ post.content }}</p>
+            <a href="{{ post.link }}">{{ post.link }}</a>
+            <p>Tags: {{ post.game }}</p>
+        </div>
+    {% endfor %}
+</body>
+</html>
