@@ -1,7 +1,11 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title></title>
+    {% if title %}
+        <title>Team Searcher - {{ title }}</title>
+    {% else %}
+        <title>Team Searcher</title>
+    {% endif %}
     <style>
         *{
             margin:0;
@@ -21,7 +25,7 @@
             <p>{{ post.date_posted }}</p>
             <p>{{ post.content }}</p>
             <a href="{{ post.link }}">Profil: {{ post.link }}</a>
-            <p>Tags: {{ post.game }}</p>
+            <p>Game: {{ post.game }}</p>
         </div>
     {% endfor %}
 </body>
