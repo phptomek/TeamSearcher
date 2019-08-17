@@ -1,32 +1,14 @@
-<!DOCTYPE html>
-<html>
-<head>
-    {% if title %}
-        <title>Team Searcher - {{ title }}</title>
-    {% else %}
-        <title>Team Searcher</title>
-    {% endif %}
-    <style>
-        *{
-            margin:0;
-            padding:0;
-            box-sizing: border-box;
-        }
-        .single-post{
-            border: 2px solid black;
-            margin: 8px 0 8px 0;
-            width: 480px;
-        }
-    </style>
-</head>
+{% extends "post/base.html" %}
+{% block content %}
     {% for post in posts %}
-        <div class="single-post">
-            <h2>Gracz: {{ post.author }}</h2>
-            <p>{{ post.date_posted }}</p>
-            <p>{{ post.content }}</p>
-            <a href="{{ post.link }}">Profil: {{ post.link }}</a>
-            <p>Game: {{ post.game }}</p>
+        <div class="single__post">
+            <h2 class="single__post--author">{{ post.author }}</h2>
+            <div class="single__post--info">
+                <p>{{ post.date_posted }}</p>
+                <p class="info__game">{{ post.game }}</p>
+                <p>{{ post.content }}</p>
+                <a href="{{ post.link }}">Profil: {{ post.link }}</a>
+            </div>
         </div>
     {% endfor %}
-</body>
-</html>
+{% endblock %}

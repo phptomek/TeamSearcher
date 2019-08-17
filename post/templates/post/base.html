@@ -1,0 +1,21 @@
+{% load static %}
+<html>
+<head>
+    {% if title %}
+        <title>Team Searcher - {{ title }}</title>
+    {% else %}
+        <title>Team Searcher</title>
+    {% endif %}
+    <link rel="stylesheet" href="{% static 'css/main.css' %}">
+</head>
+<body>
+<div class="base__wrapper">
+    <header class="base__wrapper--header"></header>
+    <div class="base__wrapper--advertisement"></div>
+    <div class="base_wrapper--posts">
+        {% block content %}
+        {% endblock %}
+    </div>
+</div>
+</body>
+</html>

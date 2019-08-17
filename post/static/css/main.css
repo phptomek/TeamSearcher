@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+.base__wrapper{
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    max-width: 960px;
+}
+.base__wrapper--header{
+    width: 100%;
+    height: 62px;
+    background-color: #d9dfe3;
+    margin-bottom: 16px;
+}
+.base__wrapper--advertisement{
+    height: 116px;
+    width: 100%;
+    background-color: rgba(199, 199, 199, 0.55);
+    margin-bottom: 18px;
+}
+.single__post{
+    width: 430px;
+    margin: 8px 0 8px 0;
+    background-color: rgba(249, 249, 249, 0.36);
+    font-family: "Roboto", "Lucida Grande", "DejaVu Sans", "Bitstream Vera Sans", Verdana, Arial, sans-serif;
+}
+.single__post--author{
+    font-size: 16px;
+}
+.single__post--info{
+    font-size: 12px;
+}
+
+.base_wrapper--posts{
+    width: 440px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(152, 177, 181, 0.69);
+}

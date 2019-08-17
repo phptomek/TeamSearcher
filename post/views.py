@@ -16,6 +16,13 @@ posts = [
         'link': 'https://steamcommunity.com/profiles/76561198325967622',
         'date_posted': 'August 18, 2019'
     },
+    {
+        'author': 'Mateuszto',
+        'game': 'Rocket League',
+        'content': 'Looking for mate to play 3s. Rank Diamond 3 - Add me on steam!',
+        'link': 'https://steamcommunity.com/profiles/76561198325967622',
+        'date_posted': 'August 21, 2019'
+    },
 ]
 
 
