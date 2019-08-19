@@ -33,8 +33,17 @@
 .single__post--info{
     font-size: 12px;
 }
+.latest__posts{
+    font-size: 22px;
 
-.base_wrapper--posts{
+    font-family: "Roboto", "Lucida Grande", "DejaVu Sans", "Bitstream Vera Sans", Verdana, Arial, sans-serif;
+}
+.base__wrapper--main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.base__wrapper--posts{
     width: 440px;
     display: flex;
     flex-direction: column;
@@ -42,3 +51,9 @@
     align-items: center;
     background-color: rgba(152, 177, 181, 0.69);
 }
+.base__wrapper--links{
+    width: 440px;
+    height: 500px;
+    background-color: rgba(22, 68, 91, 0.58);
+}
+

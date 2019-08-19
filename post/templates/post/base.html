@@ -12,10 +12,15 @@
 <div class="base__wrapper">
     <header class="base__wrapper--header"></header>
     <div class="base__wrapper--advertisement"></div>
-    <div class="base_wrapper--posts">
-        {% block content %}
-        {% endblock %}
+    <div class="base__wrapper--main">
+        <div class="base__wrapper--posts">
+            <p class="latest__posts">Latest posts</p>
+            {% block content %}
+            {% endblock %}
+        </div>
+        <div class="base__wrapper--links"></div>
     </div>
+
 </div>
 </body>
 </html>
